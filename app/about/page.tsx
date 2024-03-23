@@ -36,7 +36,7 @@ export default function Page() {
         </div>
 
         <div className="w-full col-span-12 px-3 md:lg:xl:px-10 py-3 md:lg:xl:py-10 sm:col-span-7">
-          <p>Hi there! I`&apos;`m Mojtaba Norouzi Zadeh (MNZ).
+          <p>Hi there! I`&apos;`m Mojtaba Norouzi Zadeh (MNZ)
             <br></br><b><em>as a Creative Designer, I`&apos;`m the problem spotter & the problem solver</em></b></p>
           <p className='my-2 py-3 leading-tight'>If I try to describe myself with words, I can say:<br></br>
             <em>lifelong learner, </em>thinker, <em>reading,</em> designing, <em>editing,</em> creating, <em>imgning,</em> and playing around.
