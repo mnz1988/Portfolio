@@ -7,10 +7,8 @@ import { Three } from '@/helpers/components/Three'
 export const Common = ({ color }) => (
   <Suspense fallback={null}>
     {color && <color attach='background' args={[color]} />}
-    <ambientLight />
-    <pointLight position={[20, 30, 10]} intensity={3} decay={0.2} />
-    <pointLight position={[-10, -10, -10]} color='blue' decay={0.2} />
-    <PerspectiveCamera makeDefault fov={40} position={[0, 0, 6]} />
+    {/* <ambientLight /> */}
+    <PerspectiveCamera makeDefault fov={40} near={0.1} far={150} position={[19, 12, 55]} />
   </Suspense>
 )
 
@@ -22,9 +20,10 @@ const View = forwardRef(({ children, orbit, ...props }, ref) => {
     <>
       <div ref={localRef} {...props} />
       <Three>
+        {/* <spotLight color={0xffffff} decay={2} distance={5} intensity={20} /> */}
         <ViewImpl track={localRef}>
           {children}
-          {orbit && <OrbitControls />}
+          {orbit && <OrbitControls autoRotate={true} autoRotateSpeed={-0.02} screenSpacePanning={false} minDistance={33} maxDistance={100} maxPolarAngle={Math.PI / 2.18} minAzimuthAngle={-Math.PI / 20} maxAzimuthAngle={Math.PI / 2.2} />}
         </ViewImpl>
       </Three>
     </>
