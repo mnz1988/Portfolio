@@ -39,6 +39,7 @@ export default function Page() {
         <h1 className='my-4 text-5xl uppercase  '>Art-Tech Studio</h1>
         <p className='mb-4 text-2xl'>Mojtaba Norouzi Zadeh (M.N.Z.)</p>
       </div>
+
     </>
   )
 }
