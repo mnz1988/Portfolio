@@ -26,7 +26,7 @@ export default function Page() {
     <>
       <div className='mx-auto flex w-full flex-col flex-wrap items-center md:flex-row  lg:w-4/5'>
         <div className='flex w-full flex-col items-start justify-center p-8 text-center md:w-2/5 md:text-left'>
-          <p className='w-full uppercase'>Let's know more</p>
+          <p className='w-full uppercase'>Let`&apos;`s know more</p>
           <h1 className='my-1 text-5xl font-bold leading-tight'>Mini Portfolio</h1>
           <p className='text-2xl leading-normal'>a summary of my activities</p>
         </div>
@@ -44,9 +44,9 @@ export default function Page() {
                     <span className="w-full py-4 text-3xl text-transparent bg-clip-text bg-gradient-to-br from-blue-300 to-pink-600 
                                       dark:from-blue-400 dark:to-pink-400">Aropix Studio</span>
                   </div>
-                  <h2 className="text-center font-bold text-gray-950 dark:text-white text-1xl">Producer / Core Team</h2>
-                  <p className="text-center text-gray-950 dark:text-white text-1xl">International</p>
-                  <video className='rounded-lg' controls autoPlay={true} loop={true} src='/portfolio/aropix/Wooden Soul by Aropix Studio.mp4' />
+                  <h2 className="text-center font-bold text-gray-950 dark:text-white ">Producer / Core Team</h2>
+                  <p className="text-center text-gray-950 dark:text-white ">International</p>
+                  <video className='rounded-lg' controls autoPlay={false} loop={true} src='/portfolio/aropix/Wooden Soul by Aropix Studio.mp4' />
                 </div>
               </div>
 
@@ -58,11 +58,11 @@ export default function Page() {
                                       dark:from-blue-400 dark:to-pink-400">
                       <a href="https://finalfrontiersa.com" target='blank'>Final Frontier</a></span>
                   </div>
-                  <h2 className="text-center font-bold text-gray-950 dark:text-white text-1xl">
+                  <h2 className="text-center font-bold text-gray-950 dark:text-white ">
                     Web3 Core Team / Magazines & Graphics Designer
                   </h2>
-                  <p className="text-center text-gray-950 dark:text-white text-1xl">USA</p>
-                  <video className='rounded-lg' controls autoPlay={true} loop={true} src='/portfolio/ff/FinalFrontier.webm' />
+                  <p className="text-center text-gray-950 dark:text-white ">USA</p>
+                  <video className='rounded-lg' controls autoPlay={false} loop={true} src='/portfolio/ff/FinalFrontier.webm' />
                 </div>
               </div>
 
@@ -79,9 +79,9 @@ export default function Page() {
                     <span className="w-full py-4 text-3xl text-transparent bg-clip-text bg-gradient-to-br from-blue-300 to-pink-600 
                                       dark:from-blue-400 dark:to-pink-400">Freelancing</span>
                   </div>
-                  <h2 className="text-center font-bold text-gray-950 dark:text-white text-1xl">Product & Graphics Designer / WebApp Designer</h2>
-                  <p className="text-center text-gray-950 dark:text-white text-1xl">International</p>
-                  <video className='rounded-lg' controls autoPlay={true} loop={true} src='/portfolio/freelance/freelancing.webm' />
+                  <h2 className="text-center font-bold text-gray-950 dark:text-white ">Product & Graphics Designer / WebApp Designer</h2>
+                  <p className="text-center text-gray-950 dark:text-white ">International</p>
+                  <video className='rounded-lg' controls autoPlay={false} loop={true} src='/portfolio/freelance/freelancing.webm' />
                 </div>
               </div>
 
@@ -93,11 +93,11 @@ export default function Page() {
                       Idea Developers Accelerator
                     </span>
                   </div>
-                  <h2 className="text-center font-bold text-gray-950 dark:text-white text-1xl">
+                  <h2 className="text-center font-bold text-gray-950 dark:text-white ">
                     Product Manager / Business Consultant
                   </h2>
-                  <p className="text-center text-gray-950 dark:text-white text-1xl">IRI</p>
-                  <video className='rounded-lg' controls autoPlay={true} loop={true} src='/portfolio/ida/IdeaDevelopersAccelerator.mp4' />
+                  <p className="text-center text-gray-950 dark:text-white ">IRI</p>
+                  <video className='rounded-lg' controls autoPlay={false} loop={true} src='/portfolio/ida/IdeaDevelopersAccelerator.mp4' />
                 </div>
               </div>
 
@@ -110,15 +110,15 @@ export default function Page() {
                       Phoenix Team (PNX)
                     </span>
                   </div>
-                  <h2 className="text-center font-bold text-gray-950 dark:text-white text-1xl">
+                  <h2 className="text-center font-bold text-gray-950 dark:text-white ">
                     Head of Design / Product Owner
                   </h2>
-                  <p className="text-center text-gray-950 dark:text-white text-1xl">IRI</p>
-                  <video className='rounded-lg' controls autoPlay={true} loop={true} src='/portfolio/pnx/PNX-Upgrade.mp4' />
+                  <p className="text-center text-gray-950 dark:text-white ">IRI</p>
+                  <video className='rounded-lg' controls autoPlay={false} loop={true} src='/portfolio/pnx/PNX-Upgrade.mp4' />
                 </div>
               </div>
 
-              <div className="col-span-full pt-10 p-5 sm:col-span-3 lg:col-span-2 overflow-hidden relative p-3 dark:bg-gray-900">
+              <div className="col-span-full pt-10 p-5 sm:col-span-3 lg:col-span-2 overflow-hidden relative dark:bg-gray-900">
                 <div>
                   <div className="relative flex items-center text-center">
                     <span className="w-full text-3xl text-transparent bg-clip-text bg-gradient-to-br from-blue-300 to-pink-600 
@@ -133,31 +133,31 @@ export default function Page() {
                   <div className="mt-8 grid grid-cols-5 items-center gap-4 px-4">
 
                     <a href="https://twitter.com/MNZ_Co">
-                      <button className="fixed sticky h-10 w-10 transform animate-bounce duration-500 hover:-translate-y-3">
+                      <button className="sticky h-10 w-10 transform animate-bounce duration-500 hover:-translate-y-3">
                         <img className="w-9 " alt="Contact Me using the X (Twitter)" src="/contactme icons/twitterx.svg" />
                       </button>
                     </a>
 
                     <a href="https://t.me/Idea_developer">
-                      <button className="fixed sticky h-10 w-10 transform duration-500 hover:-translate-y-3">
+                      <button className="sticky h-10 w-10 transform duration-500 hover:-translate-y-3">
                         <img className="w-9 " alt="Contact Me using the Telegram" src="/contactme icons/telegram.svg" />
                       </button>
                     </a>
 
                     <a href="mailto:moji.norouzi@gmail.com">
-                      <button className="fixed sticky h-10 w-10 transform duration-500 hover:-translate-y-3">
+                      <button className="sticky h-10 w-10 transform duration-500 hover:-translate-y-3">
                         <img className="w-9 " alt="E-Mail Me" src="/contactme icons/gmail.svg" />
                       </button>
                     </a>
 
                     <a href="https://github.com/mnz1988/">
-                      <button className="fixed sticky h-10 w-10 transform duration-500 hover:-translate-y-3">
+                      <button className="sticky h-10 w-10 transform duration-500 hover:-translate-y-3">
                         <img className="w-9 " alt="Follow me on the Github" src="/contactme icons/github.svg" />
                       </button>
                     </a>
 
                     <a href="https://wa.me/989195914200">
-                      <button className="fixed sticky h-10 w-10 transform duration-500 hover:-translate-y-3">
+                      <button className="sticky h-10 w-10 transform duration-500 hover:-translate-y-3">
                         <img className="w-9 " alt="Contact Me using the WhatsApp" src="/contactme icons/whatsapp.svg" />
                       </button>
                     </a>
