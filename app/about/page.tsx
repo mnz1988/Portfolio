@@ -149,9 +149,9 @@ export default function Page() {
               <div className="border flex relative *:relative *: size-16 p-2 rounded-xl dark:bg-gray-650 dark:border-white/15 before:rounded-[11px] before:absolute before:inset-0 before:border-t before:border-white before:from-gray-600 dark:before:border-white/20 before:bg-gradient-to-b dark:before:from-white/10 dark:before:to-transparent before:shadow dark:before:shadow-gray-650">
                 <img src="/brands/ai/openai-wordmark.svg" alt={''} />
               </div>
-              <div className="border flex relative *:relative *: size-16 p-2 rounded-xl dark:bg-gray-650 dark:border-white/15 before:rounded-[11px] before:absolute before:inset-0 before:border-t before:border-white before:from-gray-600 dark:before:border-white/20 before:bg-gradient-to-b dark:before:from-white/10 dark:before:to-transparent before:shadow dark:before:shadow-gray-650">
-                <img src="/brands/ai/logo_white.webp" alt={''} />
-              </div>
+              {/* <div className="border flex relative *:relative *: size-16 p-2 rounded-xl dark:bg-gray-650 dark:border-white/15 before:rounded-[11px] before:absolute before:inset-0 before:border-t before:border-white before:from-gray-600 dark:before:border-white/20 before:bg-gradient-to-b dark:before:from-white/10 dark:before:to-transparent before:shadow dark:before:shadow-gray-650">
+                <img src="/brands/ai/logo_white.webp" alt='Open Art' />
+              </div> */}
               <div className="border flex relative *:relative *: size-16 p-0 rounded-xl dark:bg-gray-650 dark:border-white/15 before:rounded-[11px] before:absolute before:inset-0 before:border-t before:border-white before:from-gray-600 dark:before:border-white/20 before:bg-gradient-to-b dark:before:from-white/10 dark:before:to-transparent before:shadow dark:before:shadow-gray-650">
                 <img src="/brands/ai/A111.webp" alt={''} />
               </div>
