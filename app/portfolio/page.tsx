@@ -27,7 +27,7 @@ export default function Page() {
       <div className='overflow-y-auto'>
         <div className='mx-auto flex w-full flex-col flex-wrap items-center md:flex-row lg:w-4/5'>
           <div className='flex w-full flex-col items-start justify-center p-8 text-center md:w-2/5 md:text-left'>
-            <p className='w-full uppercase'>Let&apos;s know more</p>
+            {/* <p className='w-full uppercase'>Let&apos;s know more</p> */}
             <h1 className='my-1 text-5xl font-bold leading-tight'>Mini Portfolio</h1>
             <p className='text-2xl leading-normal'>a summary of my activities</p>
           </div>
@@ -119,7 +119,7 @@ export default function Page() {
                   </div>
                 </div>
 
-                <div className="col-span-full pt-10 p-5 sm:col-span-3 lg:col-span-2 overflow-hidden relative dark:bg-gray-900 bg-white" >
+                <div className="col-span-full pt-10 p-5 sm:col-span-3 lg:col-span-2 overflow-hidden relative bg-white" >
                   <div>
                     <div className="relative flex items-center text-center">
                       <span className="w-full text-3xl text-transparent bg-clip-text bg-gradient-to-br from-blue-300 to-pink-600 
