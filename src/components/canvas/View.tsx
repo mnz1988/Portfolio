@@ -7,6 +7,7 @@ import { Three } from '@/helpers/components/Three'
 export const Common = ({ color }) => (
   <Suspense fallback={null}>
     {color && <color attach='background' args={[color]} />}
+    {/* @ts-ignore */}
     <PerspectiveCamera makeDefault fov={40} near={0.1} far={150} position={[19, 12, 55]} />
   </Suspense>
 )
