@@ -119,7 +119,7 @@ export default function Page() {
                   </div>
                 </div>
 
-                <div className="col-span-full pt-10 p-5 sm:col-span-3 lg:col-span-2 overflow-hidden relative dark:bg-gray-900">
+                <div className="col-span-full pt-10 p-5 sm:col-span-3 lg:col-span-2 overflow-hidden relative dark:bg-gray-900 bg-white" >
                   <div>
                     <div className="relative flex items-center text-center">
                       <span className="w-full text-3xl text-transparent bg-clip-text bg-gradient-to-br from-blue-300 to-pink-600 
