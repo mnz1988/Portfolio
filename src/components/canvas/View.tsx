@@ -10,7 +10,7 @@ export const Common = ({ color }) => (
     <PerspectiveCamera makeDefault fov={40} near={0.1} far={150} position={[19, 12, 55]} />
   </Suspense>
 )
-
+//@ts-ignore
 const View = forwardRef(({ children, orbit, ...props }, ref) => {
   const localRef = useRef(null)
   useImperativeHandle(ref, () => localRef.current)

@@ -13,16 +13,22 @@ export default function Workshop(props) {
 
     const meshRef = useRef(null)
     useFrame((state, delta) => (meshRef.current.rotation.y += delta - 0.03))
-
+    //@ts-ignore
     const workStationTable = nodes["single-table"].geometry
+    //@ts-ignore
     const workStationChair1 = nodes["single-chair-1"].geometry
+    //@ts-ignore
     const workStationChair2 = nodes["single-chair-2"].geometry
+    //@ts-ignore
     const windowsGmy = nodes.win.geometry
+    //@ts-ignore
     const shelves = nodes.shelf.geometry
+    //@ts-ignore
     const projector = nodes["hanging-light-body"].geometry
+    //@ts-ignore
     const miniRobotF = nodes.miniRobo3.geometry
+    //@ts-ignore
     const miniRobot = nodes.miniRobo7.geometry
-
     return (
         <group {...props} dispose={null} scale={0.1} position={[0.1, -0.7, 0]}>
 
@@ -84,21 +90,27 @@ export default function Workshop(props) {
             </group>
 
             <group name="toolbox">
+                {/* @ts-ignore */}
                 <mesh geometry={nodes.b2001.geometry} position={[-20.194, 2.297, -7.567]}><meshBasicMaterial map={bakedTexture} /></mesh>
+                {/* @ts-ignore */}
                 <mesh geometry={nodes.b2002.geometry} position={[-20.194, 2.297, -5.74]}><meshBasicMaterial map={bakedTexture} /></mesh>
             </group>
 
             <group name="Shelves">
 
                 <mesh geometry={shelves} position={[-17.843, 2.801, -15.786]} rotation={[-2.588, 0, 0]}><meshBasicMaterial map={bakedTexture} /></mesh>
+                {/* @ts-ignore */}
                 <mesh name="box1" geometry={nodes.b1.geometry} scale={0.4} position={[-16.843, 2.801, -15.786]} > <meshBasicMaterial /></mesh>
                 <mesh geometry={shelves} position={[-11.165, 2.801, -15.786]} rotation={[-2.588, 0, 0]}><meshBasicMaterial map={bakedTexture} /></mesh>
+                {/* @ts-ignore */}
                 <mesh geometry={nodes.b2002.geometry} scale={0.3} position={[-10.165, 2.901, -15.786]} rotation={[0, -2, 0]}><meshBasicMaterial /></mesh>
                 <mesh geometry={shelves} position={[-4.794, 2.801, -15.786]} rotation={[-2.588, 0, 0]}><meshBasicMaterial map={bakedTexture} /></mesh>
                 <mesh geometry={shelves} position={[1.078, 2.801, -15.786]} rotation={[-2.588, 0, 0]}><meshBasicMaterial map={bakedTexture} /></mesh>
                 <mesh geometry={shelves} position={[12.86, 2.801, -15.786]} rotation={[-2.588, 0, 0]}><meshBasicMaterial map={bakedTexture} /></mesh>
+                {/* @ts-ignore */}
                 <mesh geometry={nodes.b2002.geometry} scale={0.3} position={[8.165, 2.901, -15.786]}><meshBasicMaterial /></mesh>
                 <mesh geometry={shelves} position={[7.027, 2.801, -15.786]} rotation={[-2.588, 0, 0]}><meshBasicMaterial map={bakedTexture} /></mesh>
+                {/* @ts-ignore */}
                 <mesh name="box1" geometry={nodes.b1.geometry} scale={0.4, 0.1, 0.3} position={[14.543, 2.801, -15.786]} > <meshBasicMaterial /></mesh>
 
             </group>
@@ -195,11 +207,13 @@ export default function Workshop(props) {
             </group>
 
             <mesh name="legS"
+                // @ts-ignore
                 geometry={nodes.leg2.geometry} position={[-6.811, 0.167, 8.372]} rotation={[0.03, -0.79, -1.507]}>
                 <meshBasicMaterial map={bakedTexture} />
             </mesh>
 
             <mesh name="legB"
+                // @ts-ignore
                 geometry={nodes.leg1.geometry} position={[10.013, 1.59, 7.526]} rotation={[-1.548, -0.071, -2.986]}>
                 <meshBasicMaterial map={bakedTexture} />
             </mesh>
@@ -207,22 +221,24 @@ export default function Workshop(props) {
             <group>
 
                 <mesh name="fanB"
+                    // @ts-ignore
                     geometry={nodes.fanB.geometry} position={[-15.235, 15.807, -16.066]} rotation={[Math.PI / 2, 0, 0]}>
                     <meshBasicMaterial map={bakedTexture} />
                 </mesh>
 
                 <mesh name="fan" ref={meshRef}
+                    // @ts-ignore
                     geometry={nodes.fan.geometry} position={[-15.235, 15.807, -16.066]} rotation={[Math.PI / 2, 0, 0]}>
                     <meshBasicMaterial map={bakedTexture} />
                 </mesh>
 
             </group>
             <group>
-
+                {/* @ts-ignore */}
                 <mesh name="bigRobotBody" geometry={nodes.bigRobotBody.geometry} position={[0, 0.156, 0]}>
                     <meshMatcapMaterial map={bakedTexture} />
                 </mesh>
-
+                {/* @ts-ignore */}
                 <mesh name="bigRobotarmL" geometry={nodes.bigRobotarmL.geometry} position={[12.831, 9.118, 0]}>
                     <meshBasicMaterial map={bakedTexture} />
                 </mesh>
@@ -230,42 +246,57 @@ export default function Workshop(props) {
             </group>
 
             <group>
+                {/* @ts-ignore */}
                 <mesh name="floor" geometry={nodes.floor.geometry} position={[0, 0.075, 0]}><meshBasicMaterial map={bakedTexture} /></mesh>
                 {/* Walls */}
+                {/* @ts-ignore */}
                 <mesh name="wall1" geometry={nodes.wall1.geometry} position={[0.009, 0, 0]}><meshBasicMaterial map={bakedTexture} /></mesh>
+                {/* @ts-ignore */}
                 <mesh name="wall2" geometry={nodes.wall2.geometry} position={[0.175, 0, 4.406]} rotation={[0, -1.571, 0]}><meshBasicMaterial map={bakedTexture} /></mesh>
                 {/* Level 2 */}
+                {/* @ts-ignore */}
                 <mesh name="level2base" geometry={nodes.level2base.geometry} position={[0, 9.996, -14.306]}><meshBasicMaterial map={bakedTexture} /></mesh>
+                {/* @ts-ignore */}
                 <mesh name="level2guards" geometry={nodes.level2guards.geometry} position={[18.296, 11.962, -12.788]} rotation={[0, 0, -Math.PI / 2]}>
                     <meshBasicMaterial map={bakedTexture} />
                 </mesh>
                 {/* Boxes on the Floor */}
+                {/* @ts-ignore */}
                 <mesh name="box1" geometry={nodes.b1.geometry} position={[19.625, 1.168, -12.648]} > <meshBasicMaterial map={bakedTexture} /></mesh>
+                {/* @ts-ignore */}
                 <mesh name="box2" geometry={nodes.b2.geometry} position={[19.625, 3.038, -12.675]} ><meshBasicMaterial map={bakedTexture} /></mesh>
+                {/* @ts-ignore */}
                 <mesh name="box3" geometry={nodes.b3.geometry} position={[19.625, 0.796, -10.464]}><meshBasicMaterial map={bakedTexture} /></mesh>
+                {/* @ts-ignore */}
                 <mesh name="box4" geometry={nodes.b4.geometry} position={[19.625, 2.562, -10.511]}><meshBasicMaterial map={bakedTexture} /></mesh>
+                {/* @ts-ignore */}
                 <mesh name="box5" geometry={nodes.b5.geometry} position={[17.843, 0.739, -11.668]}><meshBasicMaterial map={bakedTexture} /></mesh>
             </group>
 
             <group >
+                {/* @ts-ignore */}
                 <mesh name="armR" geometry={nodes.armR.geometry} position={[-8.142, 9.081, -1.985]} rotation={[Math.PI, -0.474, 2.577]}>
                     <meshBasicMaterial map={bakedTexture} />
                 </mesh>
 
+                {/* @ts-ignore */}
                 <mesh name="chain-1" geometry={nodes["chain-1"].geometry} position={[-14.293, 7.534, 1.218]}>
                     <meshBasicMaterial map={bakedTexture} />
                 </mesh>
 
+                {/* @ts-ignore */}
                 <mesh name="chain-2" geometry={nodes["chain-2"].geometry} position={[-9.613, 9.067, -1.341]}>
                     <meshBasicMaterial map={bakedTexture} />
                 </mesh>
             </group>
 
             <group>
+                {/* @ts-ignore */}
                 <mesh name="aircondition" geometry={nodes.aircondition.geometry} position={[-20.144, 7.402, 8.587]} rotation={[Math.PI / 2, 0, -Math.PI / 2]}>
                     <meshBasicMaterial map={bakedTexture} />
                 </mesh>
 
+                {/* @ts-ignore */}
                 <mesh name="aircondition" geometry={nodes.aircondition.geometry} position={[16.288, 7.402, -15.766]} rotation={[Math.PI / 2, 0, 0]}>
                     <meshBasicMaterial map={bakedTexture} />
                 </mesh>
@@ -274,10 +305,12 @@ export default function Workshop(props) {
             <group name='door-1' >
                 {/* name="d1" geometry={nodes.d1.geometry} position={[-20.515, 1.162, 12.905]} rotation={[Math.PI / 2, 0, -Math.PI / 2]} */}
                 <mesh name="d2"
+                    // @ts-ignore
                     geometry={nodes.d2.geometry} position={[-20.624, 0.158, 13.917]} rotation={[Math.PI / 2, 0, -Math.PI / 2]}>
                     <meshBasicMaterial map={bakedTexture} />
                 </mesh>
                 <mesh name="d3"
+                    // @ts-ignore
                     geometry={nodes.d3.geometry} position={[-20.492, 1.683, 13.623]} rotation={[Math.PI / 2, 0, -Math.PI / 2]}>
                     <meshBasicMaterial map={bakedTexture} />
                 </mesh>
@@ -286,10 +319,12 @@ export default function Workshop(props) {
             <group name='door-2'>
                 {/* name="d4" geometry={nodes.d1.geometry} position={[16.821, 11.013, -16.11]} rotation={[Math.PI / 2, 0, 0]} */}
                 <mesh name="d6"
+                    // @ts-ignore
                     geometry={nodes.d3.geometry} position={[16.102, 11.535, -16.088]} rotation={[Math.PI / 2, 0, 0]}>
                     <meshBasicMaterial map={bakedTexture} />
                 </mesh>
                 <mesh name="d5"
+                    // @ts-ignore
                     geometry={nodes.d2.geometry} position={[15.808, 10.009, -16.22]} rotation={[Math.PI / 2, 0, 0]}>
                     <meshBasicMaterial map={bakedTexture} />
                 </mesh>

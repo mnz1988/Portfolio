@@ -26,6 +26,7 @@ const Common = dynamic(() => import('@/components/canvas/View').then((mod) => mo
 export default function Page() {
   return (
     <>
+      {/* @ts-ignore */}
       <View orbit className='fixed h-screen w-screen'>
         <Suspense fallback={null}>
           <Common color={0x303035} />
