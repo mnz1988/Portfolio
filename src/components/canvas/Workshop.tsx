@@ -30,6 +30,7 @@ export default function Workshop(props) {
     //@ts-ignore
     const miniRobot = nodes.miniRobo7.geometry
     return (
+        // @ts - ignore
         <group {...props} dispose={null} scale={0.1} position={[0.1, -0.7, 0]}>
 
             <Text fontSize={0.6} fontWeight={800} color="Purple" position={[-20.415, 4.462, 12.95]} rotation={[0, Math.PI / 2, 0]}>About Me</Text>
@@ -44,7 +45,7 @@ export default function Workshop(props) {
             </GizmoHelper>
 
             <Grid cellSize={0.5} cellThickness={1} cellColor={0x656565} sectionSize={5} sectionThickness={1} sectionColor={0x72497c} infiniteGrid={true} />
-
+            {/* @ts-ignore */}
             <group name="workstation">
 
                 <mesh geometry={workStationTable} position={[-14.184, 1.027, -9.323]}> <meshBasicMaterial map={bakedTexture} /></mesh>
@@ -63,7 +64,7 @@ export default function Workshop(props) {
                 <mesh geometry={workStationChair2} position={[12.03, 0.669, -10.623]} rotation={[Math.PI, 0, Math.PI]}><meshBasicMaterial map={bakedTexture} /></mesh>
 
             </group>
-
+            {/* @ts-ignore */}
             <group name="Window">
 
                 <mesh geometry={windowsGmy} position={[-5.775, 16.058, -16.145]} rotation={[-Math.PI / 2, 0, -Math.PI]}> <meshBasicMaterial map={bakedTexture} /> </mesh>
@@ -88,14 +89,14 @@ export default function Workshop(props) {
                 <mesh geometry={windowsGmy} position={[41.165, 13.656, -1.375]} rotation={[-Math.PI / 2, 0, Math.PI / 2]}> <meshBasicMaterial map={bakedTexture} /> </mesh>
 
             </group>
-
+            {/* @ts-ignore */}
             <group name="toolbox">
                 {/* @ts-ignore */}
                 <mesh geometry={nodes.b2001.geometry} position={[-20.194, 2.297, -7.567]}><meshBasicMaterial map={bakedTexture} /></mesh>
                 {/* @ts-ignore */}
                 <mesh geometry={nodes.b2002.geometry} position={[-20.194, 2.297, -5.74]}><meshBasicMaterial map={bakedTexture} /></mesh>
             </group>
-
+            {/* @ts-ignore */}
             <group name="Shelves">
 
                 <mesh geometry={shelves} position={[-17.843, 2.801, -15.786]} rotation={[-2.588, 0, 0]}><meshBasicMaterial map={bakedTexture} /></mesh>
@@ -114,6 +115,7 @@ export default function Workshop(props) {
                 <mesh name="box1" geometry={nodes.b1.geometry} scale={0.4, 0.1, 0.3} position={[14.543, 2.801, -15.786]} > <meshBasicMaterial /></mesh>
 
             </group>
+            {/* @ts-ignore */}
             <group name="projectors">
 
                 <mesh geometry={projector} position={[-16.191, 18.336, -9.911]}><meshBasicMaterial map={bakedTexture} /></mesh>
@@ -142,6 +144,7 @@ export default function Workshop(props) {
                 <mesh geometry={projector} position={[15.047, 18.336, 8.217]}><meshBasicMaterial map={bakedTexture} /></mesh>
 
             </group>
+            {/* @ts-ignore */}
             <group name="miniRobot-Float">
 
                 <Float speed={6} floatIntensity={0.05} rotationIntensity={0.05}>
@@ -181,7 +184,7 @@ export default function Workshop(props) {
                 </Float>
 
             </group>
-
+            {/* @ts-ignore */}
             <group name="miniRobot-fixed">
 
                 <mesh name="miniRobo1"
@@ -217,7 +220,7 @@ export default function Workshop(props) {
                 geometry={nodes.leg1.geometry} position={[10.013, 1.59, 7.526]} rotation={[-1.548, -0.071, -2.986]}>
                 <meshBasicMaterial map={bakedTexture} />
             </mesh>
-
+            {/* @ts-ignore */}
             <group>
 
                 <mesh name="fanB"
@@ -233,6 +236,7 @@ export default function Workshop(props) {
                 </mesh>
 
             </group>
+            {/* @ts-ignore */}
             <group>
                 {/* @ts-ignore */}
                 <mesh name="bigRobotBody" geometry={nodes.bigRobotBody.geometry} position={[0, 0.156, 0]}>
@@ -244,7 +248,7 @@ export default function Workshop(props) {
                 </mesh>
 
             </group>
-
+            {/* @ts-ignore */}
             <group>
                 {/* @ts-ignore */}
                 <mesh name="floor" geometry={nodes.floor.geometry} position={[0, 0.075, 0]}><meshBasicMaterial map={bakedTexture} /></mesh>
@@ -272,7 +276,7 @@ export default function Workshop(props) {
                 {/* @ts-ignore */}
                 <mesh name="box5" geometry={nodes.b5.geometry} position={[17.843, 0.739, -11.668]}><meshBasicMaterial map={bakedTexture} /></mesh>
             </group>
-
+            {/* @ts-ignore */}
             <group >
                 {/* @ts-ignore */}
                 <mesh name="armR" geometry={nodes.armR.geometry} position={[-8.142, 9.081, -1.985]} rotation={[Math.PI, -0.474, 2.577]}>
@@ -289,7 +293,7 @@ export default function Workshop(props) {
                     <meshBasicMaterial map={bakedTexture} />
                 </mesh>
             </group>
-
+            {/* @ts-ignore */}
             <group>
                 {/* @ts-ignore */}
                 <mesh name="aircondition" geometry={nodes.aircondition.geometry} position={[-20.144, 7.402, 8.587]} rotation={[Math.PI / 2, 0, -Math.PI / 2]}>
@@ -301,7 +305,7 @@ export default function Workshop(props) {
                     <meshBasicMaterial map={bakedTexture} />
                 </mesh>
             </group>
-
+            {/* @ts-ignore */}
             <group name='door-1' >
                 {/* name="d1" geometry={nodes.d1.geometry} position={[-20.515, 1.162, 12.905]} rotation={[Math.PI / 2, 0, -Math.PI / 2]} */}
                 <mesh name="d2"
@@ -315,7 +319,7 @@ export default function Workshop(props) {
                     <meshBasicMaterial map={bakedTexture} />
                 </mesh>
             </group>
-
+            {/* @ts-ignore */}
             <group name='door-2'>
                 {/* name="d4" geometry={nodes.d1.geometry} position={[16.821, 11.013, -16.11]} rotation={[Math.PI / 2, 0, 0]} */}
                 <mesh name="d6"
