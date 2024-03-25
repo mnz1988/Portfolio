@@ -33,14 +33,14 @@ export default function Workshop(props) {
         // @ts - ignore
         <group {...props} dispose={null} scale={0.1} position={[0.1, -0.7, 0]}>
             {/* @ts-ignore */}
-            <Text fontSize={0.6} fontWeight={800} color="Purple" position={[-20.415, 4.462, 12.95]} rotation={[0, Math.PI / 2, 0]}>About Me</Text>
+            <Text fontSize={0.9} fontWeight={800} color="Purple" position={[-20.415, 4.6, 12.95]} rotation={[0, Math.PI / 2, 0]}>About Me</Text>
             {/* @ts-ignore */}
-            <Text fontSize={0.8} fontWeight={900} color="Purple" position={[-20.415, 3.75, 11.35]} rotation={[0, Math.PI / 2, 0]}>⤦</Text>
+            <Text fontSize={0.9} fontWeight={900} color="Purple" position={[-20.415, 3.65, 11.35]} rotation={[0, Math.PI / 2, 0]}>⤦</Text>
             {/* <Text fontSize={0.7} fontWeight={400} color="pink" position={[-20.415, 1.9, 12.55]} rotation={[0, Math.PI / 2, -Math.PI / 2]}>↧ About</Text> */}
             {/* @ts-ignore */}
-            <Text fontSize={0.6} fontWeight={800} color="Purple" position={[16.821, 14.2, -16.1]} rotation={[0, 0, 0]}>Portfolio</Text>
+            <Text fontSize={0.9} fontWeight={800} color="Purple" position={[16.821, 14.4, -16.1]} rotation={[0, 0, 0]}>Portfolio</Text>
             {/* @ts-ignore */}
-            <Text fontSize={0.8} fontWeight={800} color="Purple" position={[18.4, 13.63, -16.1]} rotation={[0, 0, 0]}>⤦</Text>
+            <Text fontSize={0.9} fontWeight={800} color="Purple" position={[18.4, 13.50, -16.1]} rotation={[0, 0, 0]}>⤦</Text>
             {/* <Text fontSize={0.6} fontWeight={500} color="pink" position={[16.921, 11.8, -15.6]} rotation={[Math.PI, Math.PI, -Math.PI / 2]}>↥ Portfolio</Text> */}
 
             {/* @ts-ignore */}
