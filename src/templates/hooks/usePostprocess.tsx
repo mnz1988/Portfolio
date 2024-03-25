@@ -26,7 +26,7 @@ const usePostProcess = () => {
     screen.frustumCulled = false
     screenScene.add(screen)
     // @ts-ignore
-    const renderTarget = new THREE.WebGLRenderTarget(128, 128, { samples: 2, encoding: gl.encoding })
+    const renderTarget = new THREE.WebGLRenderTarget(64, 64, { samples: 2, encoding: gl.encoding })
     // @ts-ignore
     renderTarget.depthTexture = new THREE.DepthTexture() // fix depth issues
 
