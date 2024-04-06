@@ -29,7 +29,7 @@ export default function Page() {
           <div className='flex w-full flex-col items-start justify-center p-8 text-center md:w-2/5 md:text-left'>
             {/* <p className='w-full uppercase'>Let&apos;s know more</p> */}
             <h1 className='my-1 text-5xl font-bold leading-tight'>Mini Portfolio</h1>
-            <p className='text-2xl leading-normal'>a summary of my activities</p>
+            <p className='text-2xl'>a summary of my activities</p>
           </div>
         </div>
 
@@ -38,32 +38,37 @@ export default function Page() {
             <div className="relative">
               <div className="relative z-10 grid gap-3 grid-cols-6">
 
-                <div className="col-span-full lg:col-span-2 flex relative p-2 rounded-xl bg-white border 
-                                border-gray-200 dark:border-gray-800 dark:bg-gray-900">
+                <div className="col-span-full lg:col-span-2 flex relative p-2 rounded-xl bg-white border border-gray-200 ">
                   <div className="size-fit relative">
                     <div className="relative flex items-center text-center">
-                      <span className="w-full py-4 text-3xl text-transparent bg-clip-text bg-gradient-to-br from-blue-300 to-pink-600 
-                                      dark:from-blue-400 dark:to-pink-400">Aropix Studio</span>
+                      <span className="w-full py-4 text-3xl text-transparent bg-clip-text bg-gradient-to-br from-blue-300 to-pink-600 dark:from-blue-400 dark:to-pink-400">
+                        <a href='/portfolio/aropix/'>
+                          Aropix Studio 🔗
+                        </a>
+                      </span>
                     </div>
-                    <h2 className="text-center font-bold text-gray-950 dark:text-white ">Producer / Core Team</h2>
-                    <p className="text-center text-gray-950 dark:text-white ">International</p>
-                    <video className='rounded-lg' controls autoPlay={false} loop={true} src='/portfolio/aropix/Wooden Soul by Aropix Studio.mp4' />
+                    <h2 className="text-center font-bold text-gray-950 ">
+                      <a href='/portfolio/aropix/'>Producer / Core Team</a>
+                    </h2>
+                    <p className="text-center text-gray-950 ">
+                      <a href='/portfolio/aropix/'>International</a>
+                    </p>
+                    <video className='rounded-lg' controls autoPlay={false} loop={false} src='/portfolio/aropix/Wooden Soul by Aropix Studio.mp4' />
                   </div>
                 </div>
 
-                <div className="col-span-full sm:col-span-3 lg:col-span-2 overflow-hidden relative p-3 rounded-xl bg-white border 
-                                border-gray-200 dark:border-gray-800 dark:bg-gray-900">
+                <div className="col-span-full sm:col-span-3 lg:col-span-2 overflow-hidden relative p-3 rounded-xl bg-white border border-gray-200 ">
                   <div>
                     <div className="relative flex items-center text-center">
                       <span className="w-full py-4 text-3xl text-transparent bg-clip-text bg-gradient-to-br from-blue-300 to-pink-600 
                                       dark:from-blue-400 dark:to-pink-400">
-                        <a href="https://finalfrontiersa.com" target='blank'>Final Frontier</a></span>
+                        <a href="https://finalfrontiersa.com" target='blank'>Final Frontier 🔗</a></span>
                     </div>
-                    <h2 className="text-center font-bold text-gray-950 dark:text-white ">
+                    <h2 className="text-center font-bold text-gray-950 ">
                       Web3 Core Team / Magazines & Graphics Designer
                     </h2>
-                    <p className="text-center text-gray-950 dark:text-white ">USA</p>
-                    <video className='rounded-lg' controls autoPlay={false} loop={true} src='/portfolio/ff/FinalFrontier.webm' />
+                    <p className="text-center text-gray-950 ">USA</p>
+                    <video className='rounded-lg' controls autoPlay={false} loop={false} src='/portfolio/ff/FinalFrontier.webm' />
                   </div>
                 </div>
 
@@ -74,48 +79,48 @@ export default function Page() {
                 */}
 
                 <div className="col-span-full lg:col-span-2 flex relative p-2 rounded-xl bg-white border 
-                                border-gray-200 dark:border-gray-800 dark:bg-gray-900">
+                                border-gray-200 ">
                   <div className="size-fit relative">
                     <div className="relative flex items-center text-center">
                       <span className="w-full py-4 text-3xl text-transparent bg-clip-text bg-gradient-to-br from-blue-300 to-pink-600 
-                                      dark:from-blue-400 dark:to-pink-400">Freelancing</span>
+                                      dark:from-blue-400 dark:to-pink-400">Freelancing 🔗</span>
                     </div>
-                    <h2 className="text-center font-bold text-gray-950 dark:text-white ">Product & Graphics Designer / WebApp Designer</h2>
-                    <p className="text-center text-gray-950 dark:text-white ">International</p>
+                    <h2 className="text-center font-bold text-gray-950 ">Product & Graphics Designer / WebApp Designer</h2>
+                    <p className="text-center text-gray-950 ">International</p>
                     <video className='rounded-lg' controls autoPlay={false} loop={true} src='/portfolio/freelance/freelancing.webm' />
                   </div>
                 </div>
 
-                <div className="col-span-full sm:col-span-3 lg:col-span-2 overflow-hidden relative p-3 rounded-xl bg-white border border-gray-200 dark:border-gray-800 dark:bg-gray-900">
+                <div className="col-span-full sm:col-span-3 lg:col-span-2 overflow-hidden relative p-3 rounded-xl bg-white border border-gray-200 ">
                   <div>
                     <div className="relative flex items-center text-center">
                       <span className="w-full py-4 text-3xl text-transparent bg-clip-text bg-gradient-to-br from-blue-300 to-pink-600 
                                       dark:from-blue-400 dark:to-pink-400">
-                        Idea Developers Accelerator
+                        I.D. Accelerator 🔗
                       </span>
                     </div>
-                    <h2 className="text-center font-bold text-gray-950 dark:text-white ">
+                    <h2 className="text-center font-bold text-gray-950 ">
                       Product Manager / Business Consultant
                     </h2>
-                    <p className="text-center text-gray-950 dark:text-white ">IRI</p>
-                    <video className='rounded-lg' controls autoPlay={false} loop={true} src='/portfolio/ida/IdeaDevelopersAccelerator.mp4' />
+                    <p className="text-center text-gray-950 ">IRI</p>
+                    <video className='rounded-lg' controls={true} autoPlay={true} loop={true} src='/portfolio/ida/IdeaDevelopersAccelerator.mp4' />
                   </div>
                 </div>
 
                 <div className="col-span-full sm:col-span-3 lg:col-span-2 overflow-hidden relative p-3 rounded-xl bg-white border 
-                                border-gray-200 dark:border-gray-800 dark:bg-gray-900">
+                                border-gray-200 ">
                   <div>
                     <div className="relative flex items-center text-center">
                       <span className="w-full py-4 text-3xl text-transparent bg-clip-text bg-gradient-to-br from-blue-300 to-pink-600 
                                       dark:from-blue-400 dark:to-pink-400">
-                        Phoenix Team (PNX)
+                        Phoenix Team 🔗
                       </span>
                     </div>
-                    <h2 className="text-center font-bold text-gray-950 dark:text-white ">
+                    <h2 className="text-center font-bold text-gray-950 ">
                       Head of Design / Product Owner
                     </h2>
-                    <p className="text-center text-gray-950 dark:text-white ">IRI</p>
-                    <video className='rounded-lg' controls autoPlay={false} loop={true} src='/portfolio/pnx/PNX-Upgrade.mp4' />
+                    <p className="text-center text-gray-950 ">IRI</p>
+                    <video className='rounded-lg' controls={true} autoPlay={true} loop={true} src='/portfolio/pnx/PNX-Upgrade.mp4' />
                   </div>
                 </div>
 
