@@ -51,7 +51,7 @@ export default function Page() {
                       <a href='/portfolio/aropix/'>Producer / Core Team</a>
                     </h2>
                     <p className="text-center text-gray-950 ">
-                      <a href='/portfolio/aropix/'>International</a>
+                      <a href='/portfolio/aropix/'>2023~today / International</a>
                     </p>
                     <video className='rounded-lg' controls autoPlay={false} loop={false} src='/portfolio/aropix/Wooden Soul by Aropix Studio.mp4' />
                   </div>
@@ -68,7 +68,7 @@ export default function Page() {
                       <a href='/portfolio/ff/'>Web3 Core Team / Magazines & Graphics Designer</a>
                     </h2>
                     <p className="text-center text-gray-950 ">
-                      <a href='/portfolio/ff/'>USA</a>
+                      <a href='/portfolio/ff/'>2021~today / USA</a>
                     </p>
                     <video className='rounded-lg' controls autoPlay={false} loop={false} src='/portfolio/ff/FinalFrontier.webm' />
                   </div>
@@ -88,7 +88,7 @@ export default function Page() {
                                       dark:from-blue-400 dark:to-pink-400">Freelancing 🔗</span>
                     </div>
                     <h2 className="text-center font-bold text-gray-950 ">Product & Graphics Designer / WebApp Designer</h2>
-                    <p className="text-center text-gray-950 ">International</p>
+                    <p className="text-center text-gray-950 ">2006~tody / International</p>
                     <video className='rounded-lg' controls autoPlay={false} loop={true} src='/portfolio/freelance/freelancing.webm' />
                   </div>
                 </div>
@@ -104,7 +104,7 @@ export default function Page() {
                     <h2 className="text-center font-bold text-gray-950 ">
                       Product Manager / Business Consultant
                     </h2>
-                    <p className="text-center text-gray-950 ">IRI</p>
+                    <p className="text-center text-gray-950 ">2018~2020 / IRI</p>
                     <video className='rounded-lg' controls={true} autoPlay={true} loop={true} src='/portfolio/ida/IdeaDevelopersAccelerator.mp4' />
                   </div>
                 </div>
@@ -121,7 +121,7 @@ export default function Page() {
                     <h2 className="text-center font-bold text-gray-950 ">
                       Head of Design / Product Owner
                     </h2>
-                    <p className="text-center text-gray-950 ">IRI</p>
+                    <p className="text-center text-gray-950 ">2016~2018 / IRI</p>
                     <video className='rounded-lg' controls={true} autoPlay={true} loop={true} src='/portfolio/pnx/PNX-Upgrade.mp4' />
                   </div>
                 </div>
