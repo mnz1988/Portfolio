@@ -62,12 +62,14 @@ export default function Page() {
                     <div className="relative flex items-center text-center">
                       <span className="w-full py-4 text-3xl text-transparent bg-clip-text bg-gradient-to-br from-blue-300 to-pink-600 
                                       dark:from-blue-400 dark:to-pink-400">
-                        <a href="https://finalfrontiersa.com" target='blank'>Final Frontier 🔗</a></span>
+                        <a href='/portfolio/ff/'>Final Frontier 🔗</a></span>
                     </div>
                     <h2 className="text-center font-bold text-gray-950 ">
-                      Web3 Core Team / Magazines & Graphics Designer
+                      <a href='/portfolio/ff/'>Web3 Core Team / Magazines & Graphics Designer</a>
                     </h2>
-                    <p className="text-center text-gray-950 ">USA</p>
+                    <p className="text-center text-gray-950 ">
+                      <a href='/portfolio/ff/'>USA</a>
+                    </p>
                     <video className='rounded-lg' controls autoPlay={false} loop={false} src='/portfolio/ff/FinalFrontier.webm' />
                   </div>
                 </div>
