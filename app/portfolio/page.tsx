@@ -88,7 +88,7 @@ export default function Page() {
                                       dark:from-blue-400 dark:to-pink-400">Freelancing 🔗</span>
                     </div>
                     <h2 className="text-center font-bold text-gray-950 ">Product & Graphics Designer / WebApp Designer</h2>
-                    <p className="text-center text-gray-950 ">2006~tody / International</p>
+                    <p className="text-center text-gray-950 ">2006~today / International</p>
                     <video className='rounded-lg' controls autoPlay={false} loop={true} src='/portfolio/freelance/freelancing.webm' />
                   </div>
                 </div>
