@@ -37,10 +37,10 @@ export default function Page() {
 
         <div className="w-full col-span-12 px-3 md:lg:xl:px-10 py-3 md:lg:xl:py-10 sm:col-span-7">
           <p>Hi there! I&apos;m Mojtaba Norouzi Zadeh (MNZ)
-            <br></br><b><em>as a Creative Designer, I&apos;m the problem spotter & the problem solver</em></b></p>
+            <br></br><b><em>as a Creative Designer, I&apos;m the problem spotter and the problem solver</em></b></p>
           <p className='my-2 py-3 leading-tight'>If I try to describe myself with words, I can say:<br></br>
             <em>lifelong learner, </em>thinker, <em>reading,</em> designing, <em>editing,</em> creating, <em>imgning,</em> and playing around.
-            <br></br>When not working, I like to teaching people or try some inventions, be in nature, ride  a bicycle, climbing, listening to music & gettin caught in the rain.</p>
+            <br></br>When not working, I like to teaching people or try some inventions, be in nature, ride  a bicycle, climbing, listening to music and gettin caught in the rain.</p>
           <p></p>
           <p>Most people know me as a person-to-go when they need ideas or stuck in problems...</p>
           <p>I vigorously try for value <b>team collaboration,</b> performance in design and <b>business growth.</b> cause I think that I will grow when helping others to grow and I believe in <em>&quot;share to get&quot;.</em></p>
@@ -53,11 +53,12 @@ export default function Page() {
           <em>I unpack complicated problems by approaching each with the flexible process and attention it deserves. </em>This means that I work with others to ask questions, define approaches and execute solutions comprising:
           <br></br>Strategy Designing
           <br></br>Information Architecture
-          <br></br>User Experience & Interface Design (UX/UI)
+          <br></br>User Experience and Interface Design (UX/UI)
           <br></br>Visual Design
           <br></br>Product Managing...
-          <p>I&apos;m a selflearner Designer. Also, I have a bachelors in electronics & master in IT</p>
-          I work with this techs (software) & teach others too:
+          <p>I&apos;m a selflearner Designer. Also, I have a bachelors in electronics and master in IT</p>
+          <p><a href='/moji_resume_design.pdf'>You can download my Resume here</a></p>
+          Also, I work with this techs (software) and teach others too:
 
         </div>
 
