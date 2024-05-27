@@ -85,10 +85,15 @@ export default function Page() {
                   <div className="size-fit relative">
                     <div className="relative flex items-center text-center">
                       <span className="w-full py-4 text-3xl text-transparent bg-clip-text bg-gradient-to-br from-blue-300 to-pink-600 
-                                      dark:from-blue-400 dark:to-pink-400">Freelancing 🔗</span>
+                                      dark:from-blue-400 dark:to-pink-400">
+                        <a href='/portfolio/freelancing/'>Freelancing 🔗</a></span>
                     </div>
-                    <h2 className="text-center font-bold text-gray-950 ">Product & Graphics Designer / WebApp Designer</h2>
-                    <p className="text-center text-gray-950 ">2006~today / International</p>
+                    <h2 className="text-center font-bold text-gray-950 ">
+                      <a href='/portfolio/freelancing/'>Product Designer / Graphics Designer</a>
+                    </h2>
+                    <p className="text-center text-gray-950 ">
+                      <a href='/portfolio/freelancing/'>2006~today / International</a>
+                    </p>
                     <video className='rounded-lg' controls autoPlay={false} loop={true} src='/portfolio/freelance/freelancing.webm' />
                   </div>
                 </div>
@@ -96,10 +101,11 @@ export default function Page() {
                 <div className="col-span-full sm:col-span-3 lg:col-span-2 overflow-hidden relative p-3 rounded-xl bg-white border border-gray-200 ">
                   <div>
                     <div className="relative flex items-center text-center">
-                      <span className="w-full py-4 text-3xl text-transparent bg-clip-text bg-gradient-to-br from-blue-300 to-pink-600 
+                      <span className="m-auto py-4 text-3xl text-transparent bg-clip-text bg-gradient-to-br from-blue-300 to-pink-600 
                                       dark:from-blue-400 dark:to-pink-400">
-                        I.D. Accelerator 🔗
+                        I.D. Accelerator <text className='text-2xl'>⟁</text>
                       </span>
+                      {/* <img className="m-auto" width="20" height="20" src="/portfolio/under-construction-worker-90.png" alt="" /> */}
                     </div>
                     <h2 className="text-center font-bold text-gray-950 ">
                       Product Manager / Business Consultant
@@ -115,7 +121,7 @@ export default function Page() {
                     <div className="relative flex items-center text-center">
                       <span className="w-full py-4 text-3xl text-transparent bg-clip-text bg-gradient-to-br from-blue-300 to-pink-600 
                                       dark:from-blue-400 dark:to-pink-400">
-                        Phoenix Team 🔗
+                        Phoenix Team <text className='text-2xl'>⟁</text>
                       </span>
                     </div>
                     <h2 className="text-center font-bold text-gray-950 ">
