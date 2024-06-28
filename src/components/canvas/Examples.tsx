@@ -19,8 +19,8 @@ export const Base3D = ({ route = '/about', ...props }) => {
     <group ref={mesh} {...props} >
       {/* @ts-ignore */}
       {/* <Line worldUnits points={points} color='#1c12f5' lineWidth={0.95} rotation={[0, 0, 1]} /> */}
-      <mesh position={[-1.9515, - 0.507, 1.2955]} onClick={() => router.push(route)} onPointerOver={() => hover(true)} onPointerOut={() => hover(false)}>
-        <boxGeometry args={[0.01, 0.356, 0.170, 1, 1, 1]} />
+      <mesh position={[-2.3515, - 0.527, 1.6155]} onClick={() => router.push(route)} onPointerOver={() => hover(true)} onPointerOut={() => hover(false)}>
+        <boxGeometry args={[0.01, 0.466, 0.250, 1, 1, 1]} />
         <meshBasicMaterial wireframe={false} color={hovered ? 'hotpink' : '#1fb2f5'} />
       </mesh>
       <Workshop />
@@ -67,7 +67,7 @@ export const Portfo = ({ route = '/portfolio', ...props }) => {
   return (
     <group ref={mesh} {...props} >
       <mesh position={[1.777, 0.48, -1.616]} onClick={() => router.push(route)} onPointerOver={() => hover(true)} onPointerOut={() => hover(false)}>
-        <boxGeometry args={[0.166, 0.35, 0.01, 1, 1, 1]} />
+        <boxGeometry args={[0.24, 0.44, 0.01, 1, 1, 1]} />
         <meshBasicMaterial wireframe={false} color={hovered ? 'hotpink' : '#1fb2f5'} />
       </mesh>
     </group>

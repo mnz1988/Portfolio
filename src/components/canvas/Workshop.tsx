@@ -31,7 +31,7 @@ export default function Workshop(props) {
     const miniRobot = nodes.miniRobo7.geometry
     return (
         // @ts - ignore
-        <group {...props} dispose={null} scale={0.1} position={[0.1, -0.7, 0]}>
+        <group {...props} dispose={null} scale={0.125} position={[0.22, -0.75, 0]}>
 
             {/* @ts-ignore */}
             <GizmoHelper alignment="bottom-right" margin={[80, 80]}>

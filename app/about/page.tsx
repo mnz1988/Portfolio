@@ -25,17 +25,17 @@ export default function Page() {
     <>
       <div className="w-full grid grid-cols-12 overflow-y-auto" >
 
-        <div className="col-span-12 px-3 md:lg:xl:px-10 py-3 md:lg:xl:py-10">
+        <div className="col-span-12 p-3 md:lg:xl:p-10">
           <p className='uppercase'>i wear multiple caps</p>
           <h1 className='my-4 text-5xl font-bold leading-tight'>About Me</h1>
-          <p className='=leading-normal'>my friend call me Moji ( just like E-Moji )</p>
+          <p className='leading-normal'>my friend call me Moji ( just like E-Moji )</p>
         </div>
 
         <div className="col-span-12 sm:col-span-4">
           <img src='/moji-as-monster.webp' alt={''} />
         </div>
 
-        <div className="w-full col-span-12 px-3 md:lg:xl:px-10 py-3 md:lg:xl:py-10 sm:col-span-7">
+        <div className="w-full col-span-12 p-3 md:lg:xl:p-10 sm:col-span-7">
           <p>Hi there! I&apos;m Mojtaba Norouzi Zadeh (MNZ)
             <br></br><b><em>as a Creative Designer, I&apos;m the problem spotter and the problem solver</em></b></p>
           <p className='my-2 py-3 leading-tight'>If I try to describe myself with words, I can say:<br></br>
@@ -64,7 +64,7 @@ export default function Page() {
 
         <div className="col-span-12 px-2 lg:px-44 xl:px-44 max-w-6xl text-gray-500">
 
-          <div className="relative w-fit h-fit sm:mx-auto overflow-x-auto">
+          <div className="relative size-fit sm:mx-auto overflow-x-auto">
 
             <div className="mb-2 flex w-fit mx-auto gap-2">
 

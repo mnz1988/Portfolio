@@ -8,7 +8,7 @@ const View = dynamic(() => import('@/components/canvas/View').then((mod) => mod.
   ssr: false,
   loading: () => (
     <div className='flex h-96 w-full flex-col items-center justify-center'>
-      <svg className='-ml-1 mr-3 h-5 w-5 animate-spin text-black' fill='none' viewBox='0 0 24 24'>
+      <svg className='-ml-1 mr-3 size-5 animate-spin text-black' fill='none' viewBox='0 0 24 24'>
         <circle className='opacity-25' cx='12' cy='12' r='10' stroke='currentColor' strokeWidth='4' />
         <path
           className='opacity-75'
@@ -147,31 +147,31 @@ export default function Page() {
                     <div className="mt-8 grid grid-cols-5 items-center gap-4 px-4">
 
                       <a href="https://twitter.com/MNZ_Co">
-                        <button className="sticky h-10 w-10 transform animate-bounce duration-500 hover:-translate-y-3">
+                        <button className="sticky size-10 transform animate-bounce duration-500 hover:-translate-y-3">
                           <img className="w-9 " alt="Contact Me using the X (Twitter)" src="/contactme icons/twitterx.svg" />
                         </button>
                       </a>
 
                       <a href="https://t.me/Idea_developer">
-                        <button className="sticky h-10 w-10 transform duration-500 hover:-translate-y-3">
+                        <button className="sticky size-10 transform duration-500 hover:-translate-y-3">
                           <img className="w-9 " alt="Contact Me using the Telegram" src="/contactme icons/telegram.svg" />
                         </button>
                       </a>
 
                       <a href="mailto:moji.norouzi@gmail.com">
-                        <button className="sticky h-10 w-10 transform duration-500 hover:-translate-y-3">
+                        <button className="sticky size-10 transform duration-500 hover:-translate-y-3">
                           <img className="w-9 " alt="E-Mail Me" src="/contactme icons/gmail.svg" />
                         </button>
                       </a>
 
                       <a href="https://github.com/mnz1988/">
-                        <button className="sticky h-10 w-10 transform duration-500 hover:-translate-y-3">
+                        <button className="sticky size-10 transform duration-500 hover:-translate-y-3">
                           <img className="w-9 " alt="Follow me on the Github" src="/contactme icons/github.svg" />
                         </button>
                       </a>
 
                       <a href="https://wa.me/989195914200">
-                        <button className="sticky h-10 w-10 transform duration-500 hover:-translate-y-3">
+                        <button className="sticky size-10 transform duration-500 hover:-translate-y-3">
                           <img className="w-9 " alt="Contact Me using the WhatsApp" src="/contactme icons/whatsapp.svg" />
                         </button>
                       </a>
