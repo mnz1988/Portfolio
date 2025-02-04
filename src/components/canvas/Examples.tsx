@@ -5,6 +5,7 @@ import { useMemo, useRef, useState } from 'react'
 import { Line, useCursor, MeshDistortMaterial } from '@react-three/drei'
 import { useRouter } from 'next/navigation'
 import Workshop from './Workshop'
+import Fan from './studio/Fan'
 
 export const Base3D = ({ route = '/about', ...props }) => {
   const mesh = useRef(null)
@@ -24,6 +25,7 @@ export const Base3D = ({ route = '/about', ...props }) => {
         <meshBasicMaterial wireframe={false} color={hovered ? 'hotpink' : '#1fb2f5'} />
       </mesh>
       <Workshop />
+      <Fan />
     </group>
   )
 }

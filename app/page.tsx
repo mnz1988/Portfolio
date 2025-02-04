@@ -1,7 +1,6 @@
 'use client'
 
 import dynamic from 'next/dynamic'
-import Image from 'next/image'
 import React from 'react'
 import { Suspense } from 'react'
 // none (width 100%) - sm (max-width: 640px) - md (768px) - lg (1024px) - xl (1280px) - 2xl (1536px) animate-[ping_2s_infinite]
